@@ -1,0 +1,63 @@
+.editor-page{
+    background-color: #333333;
+    width: 100vw;
+    height:100vh;
+}
+.back-btn{
+    height: 20px;
+}
+.back-btn img{
+    height: 100%;
+    filter: invert(1);
+    position: relative;
+    top:3px;
+    right:92%
+}
+.editor-page-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    width: 95%;
+    margin:auto;
+    padding-top: 20px;
+    height: 18vh;
+    text-align: right;
+}
+
+/* Editor section */
+
+.editor-container{
+    position: relative;
+    width: 95%;
+    margin: auto;
+    height: 82vh;
+}
+.controls-wrapper{
+    position: absolute;
+    top: 0;
+    width: 40%;
+    height:15%;
+    padding-bottom: 1rem;
+
+}
+.text-editor-wrapper{
+    position: absolute;
+    top: 15%;
+    width: 40%;
+    height: 85%;
+    padding-bottom: 1rem;
+}
+.preview-frame-wrapper{
+    position: absolute;
+    left: 40%;
+    width: 60%;
+    height:100%;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.preview-frame{
+    background-color: #212121;
+    border: none;
+    height: 100%;
+    width:100%;
+}

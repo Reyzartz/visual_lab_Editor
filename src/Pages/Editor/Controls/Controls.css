@@ -1,0 +1,87 @@
+.control-container{
+    background-color: #21212150;
+    height: 100%;
+    display: flex;
+    padding:0 10px
+}
+.run-btn,.stop-btn,.save-btn,.html-btn,.css-btn,.refresh-btn{
+    text-align: center;
+    height: fit-content;
+    align-self: center;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 0 12px;
+}
+.btn-img{
+    height: 23px;
+    vertical-align: middle;
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    display: inline;
+}
+.run-btn .btn-img{
+    filter: invert(79%) sepia(77%) saturate(736%) hue-rotate(338deg) brightness(100%) contrast(100%);
+}
+.run-btn{
+    color: var(--yellow);
+}
+.stop-btn .btn-img{
+    filter: invert(21%) sepia(69%) saturate(4239%) hue-rotate(352deg) brightness(88%) contrast(104%);
+}
+.stop-btn{
+    color: var(--red);
+}
+.save-btn .btn-img{
+    filter: invert(51%) sepia(91%) saturate(1197%) hue-rotate(184deg) brightness(103%) contrast(80%);
+}
+.save-btn{
+    color: var(--blue);
+}
+.refresh-btn .btn-img{
+    filter: invert(87%) sepia(5%) saturate(3617%) hue-rotate(43deg) brightness(90%) contrast(74%);
+}
+.refresh-btn{
+    color: var(--green);
+}
+.refresh-btn-deactive,.refresh-btn-deactive .btn-img{
+    filter: invert(0.2);
+    color: #666666;
+}
+.save-btn:active{
+    filter: invert(1);
+}
+
+.html-css-btn{
+    align-self: center;
+    flex-grow: 1;
+    text-align: right !important;
+    font-size: 15px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+.html-btn,.css-btn{
+    text-align: center;
+    width: 120px;
+    align-self: flex-end;
+    padding: 2px;
+    vertical-align: center;
+}
+.html-btn .btn-img,.css-btn .btn-img{
+    position: relative;
+}
+.html-btn .btn-img,.html-btn{
+    color:#FF5733 ;
+}
+.css-btn .btn-img,.css-btn{
+    color: var(--blue);
+}
+.html-btn-active{
+    background-color: #FF5733;
+    color: white !important;
+}
+.css-btn-active{
+    background-color: var(--blue);
+    color: white !important;
+}

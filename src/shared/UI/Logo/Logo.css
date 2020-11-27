@@ -1,0 +1,19 @@
+.logo{
+    height: inherit;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-img{
+    position: absolute;
+    height:120%;
+    top:-7vh;
+}
+.logo-text{
+    position: absolute;
+    top:7.5vh;
+    width: 25vw;
+    text-align: center;
+    font-size:3.3vh;
+}

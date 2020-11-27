@@ -1,0 +1,120 @@
+.text-editor-container{
+    height:100%;
+}
+.codemirror-wrapper{
+    height: 64vh ;
+    background-color: #212121;
+    padding: 5px;
+}
+.CodeMirror{
+    height:60vh !important;
+    background-color: var(--dark-gray) !important;
+    color:#dddddd !important;
+}
+.cm-s-material-darker .CodeMirror-gutters {
+    background: #212121;
+    color: #666666 !important;
+  }
+  
+  .cm-s-material-darker .CodeMirror-guttermarker,
+  .cm-s-material-darker .CodeMirror-guttermarker-subtle,
+  .cm-s-material-darker .CodeMirror-linenumber {
+    color: #666666 !important;
+  }
+  
+  .cm-s-material-darker .CodeMirror-cursor {
+    border-left: 2px solid var(--yellow) !important;
+  }
+  
+  .cm-s-material-darker div.CodeMirror-selected {
+    background: rgba(97,97,97,0.3) !important;
+  }
+  
+  .cm-s-material-darker.CodeMirror-focused div.CodeMirror-selected {
+    background: rgba(97,97,97,0.3)!important;
+  }
+  
+  .cm-s-material-darker .cm-keyword {
+    color: var(--yellow) !important;
+  }
+  
+  .cm-s-material-darker .cm-operator {
+    color:var(--red) !important;
+  }
+  
+  .cm-s-material-darker .cm-variable-2 {
+    color: #cccccc !important;
+  }
+  
+  .cm-s-material-darker .cm-variable-3,
+  .cm-s-material-darker .cm-type {
+    color: var(--red) !important;
+  }
+  
+  .cm-s-material-darker .cm-builtin {
+    color: var(--yellow) !important;
+  }
+  
+  .cm-s-material-darker .cm-atom {
+    color: var(--red) !important;
+  }
+  
+  .cm-s-material-darker .cm-number {
+    color: var(--red) !important;
+  }
+  
+  .cm-s-material-darker .cm-def {
+    color: var(--blue) !important;
+  }
+  
+  .cm-s-material-darker .cm-string {
+    color: var(--green) !important;
+  }
+  
+  .cm-s-material-darker .cm-string-2 {
+    color: var(--red) !important;
+  }
+  
+  .cm-s-material-darker .cm-comment {
+    color: #666666 !important;
+  }
+  
+  .cm-s-material-darker .cm-variable {
+    color: var(--red) !important;
+  }
+  
+  .cm-s-material-darker .cm-tag {
+    color: var(--red) !important;
+  }
+  
+  .cm-s-material-darker .cm-meta {
+    color: var(--yellow) !important;
+  }
+  
+  .cm-s-material-darker .cm-attribute {
+    color: var(--yellow) !important;
+  }
+  
+  .cm-s-material-darker .cm-property {
+    color: var(--yellow) !important;
+  }
+  
+  .cm-s-material-darker .cm-qualifier {
+    color: var(--yellow) !important;
+  }
+  
+  .cm-s-material-darker .cm-variable-3,
+  .cm-s-material-darker .cm-type {
+    color: var(--yellow) !important;
+  }
+  
+  
+  .cm-s-material-darker .cm-error {
+    color: #dddddd !important;
+    background-color: var(--red) !important;
+  }
+  
+  .cm-s-material-darker .CodeMirror-matchingbracket {
+    text-decoration: underline;
+    color: white !important;
+  }

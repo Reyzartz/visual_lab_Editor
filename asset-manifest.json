@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/visual_lab_Editor/static/css/main.63bca7e3.chunk.css",
+    "main.js": "/visual_lab_Editor/static/js/main.bcb0a384.chunk.js",
+    "main.js.map": "/visual_lab_Editor/static/js/main.bcb0a384.chunk.js.map",
+    "runtime-main.js": "/visual_lab_Editor/static/js/runtime-main.2501b72e.js",
+    "runtime-main.js.map": "/visual_lab_Editor/static/js/runtime-main.2501b72e.js.map",
+    "static/css/2.30810337.chunk.css": "/visual_lab_Editor/static/css/2.30810337.chunk.css",
+    "static/js/2.4aa6c41f.chunk.js": "/visual_lab_Editor/static/js/2.4aa6c41f.chunk.js",
+    "static/js/2.4aa6c41f.chunk.js.map": "/visual_lab_Editor/static/js/2.4aa6c41f.chunk.js.map",
+    "index.html": "/visual_lab_Editor/index.html",
+    "static/css/2.30810337.chunk.css.map": "/visual_lab_Editor/static/css/2.30810337.chunk.css.map",
+    "static/css/main.63bca7e3.chunk.css.map": "/visual_lab_Editor/static/css/main.63bca7e3.chunk.css.map",
+    "static/js/2.4aa6c41f.chunk.js.LICENSE.txt": "/visual_lab_Editor/static/js/2.4aa6c41f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2501b72e.js",
+    "static/css/2.30810337.chunk.css",
+    "static/js/2.4aa6c41f.chunk.js",
+    "static/css/main.63bca7e3.chunk.css",
+    "static/js/main.bcb0a384.chunk.js"
+  ]
+}

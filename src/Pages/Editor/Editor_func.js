@@ -1,4 +1,4 @@
-const InitilJsVal=[
+const InitilJsVal= JSON.parse(localStorage.getItem('editor_flies')) || [
     {
         id:Math.random(),
         displayName:'index',

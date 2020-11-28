@@ -72,6 +72,11 @@ export const JsProvider = (props) => {
     const clearSrcDoc=()=>{
         setSrcDoc("")
     }
+
+    const saveFiles =()=>{
+        console.log("saving files");
+        localStorage.setItem('editor_flies',JSON.stringify(docFiles))
+    }
     
     return ( 
         <JsContext.Provider value={{
@@ -83,7 +88,8 @@ export const JsProvider = (props) => {
                                         setSrcDocHandler,
                                         clearSrcDoc,
                                         currentTabId,
-                                        changeCurrentTabHandler
+                                        changeCurrentTabHandler,
+                                        saveFiles
                                     }}>
             {props.children}
         </JsContext.Provider>

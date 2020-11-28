@@ -3,7 +3,7 @@ import { JsContext } from '../../../shared/context/JsContext';
 import "./Controls.css"
 
 const Controls = () => {
-    const {setSrcDocHandler,clearSrcDoc,changeCurrentTabHandler,docFiles,currentTabId} = useContext(JsContext)
+    const {setSrcDocHandler,clearSrcDoc,changeCurrentTabHandler,docFiles,currentTabId,saveFiles} = useContext(JsContext)
     const [isRunning,setIsRunning] = useState(false);
     const [autoRefresh,setAutoRefresh] = useState(false);
     const runStateHandler=(action)=>{
@@ -32,7 +32,7 @@ const Controls = () => {
         else{
             console.log("go sleep");
         }
-    },[docFiles,setSrcDocHandler,setIsRunning])
+    },[autoRefresh,docFiles,setSrcDocHandler,setIsRunning])
     return (
         <div className="control-container">
             <div className="run-btn" onClick={()=>{runStateHandler("run")}}>
@@ -43,7 +43,7 @@ const Controls = () => {
                 <img src={`./assets/stop-${isRunning?"nofill":"fill"}.svg`} alt='stop' className="btn-img"/><br/>
                 Stop
             </div>
-            <div className="save-btn">
+            <div className="save-btn" onClick={()=>{saveFiles()}}>
                 <img src="./assets/save.svg" alt='save' className="btn-img"/><br/>
                 Save
             </div>

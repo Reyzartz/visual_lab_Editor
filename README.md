@@ -1,3 +1,10 @@
+# Visual Lab Editor
+
+Visual lab editor is a web editor for the browser to run and write JS, HTML, CSS code with a live preview option available use get one HTML, CSS file and multiple JS files to add to there project they can also store their project in the Local Storage so the user can start where they left off. This project was made using ReactJS
+
+![visual lab editor](https://user-images.githubusercontent.com/47865866/103872641-b3941200-50f4-11eb-9d22-d719e16ba81d.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
